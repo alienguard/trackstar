@@ -167,3 +167,73 @@ Stack trace:
 #12 /home/kehuang/Codes/Web/trackstar/protected/yiic(4): require_once('/home/kehuang/C...')
 #13 {main}
 ---
+2013/09/06 14:46:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before performing this action.' in /home/kehuang/Codes/Web/trackstar/protected/controllers/IssueController.php:52
+Stack trace:
+#0 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(291): CFilterChain->run()
+#7 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(282): CController->run('create')
+#9 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 /home/kehuang/Codes/Web/Framework/Yii/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/kehuang/Codes/Web/trackstar/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=issue/create
+HTTP_REFERER=http://www.trackstar.local/index.php?r=site/login
+---
+2013/09/06 15:03:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before performing this action.' in /home/kehuang/Codes/Web/trackstar/protected/controllers/IssueController.php:52
+Stack trace:
+#0 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(291): CFilterChain->run()
+#7 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(282): CController->run('create')
+#9 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 /home/kehuang/Codes/Web/Framework/Yii/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/kehuang/Codes/Web/trackstar/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=issue/create
+---
+2013/09/06 15:03:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before performing this action.' in /home/kehuang/Codes/Web/trackstar/protected/controllers/IssueController.php:52
+Stack trace:
+#0 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(291): CFilterChain->run()
+#7 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(282): CController->run('create')
+#9 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 /home/kehuang/Codes/Web/Framework/Yii/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/kehuang/Codes/Web/trackstar/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=issue/create
+---
+2013/09/06 15:38:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before performing this action.' in /home/kehuang/Codes/Web/trackstar/protected/controllers/IssueController.php:52
+Stack trace:
+#0 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/kehuang/Codes/Web/Framework/Yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(291): CFilterChain->run()
+#7 /home/kehuang/Codes/Web/Framework/Yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(282): CController->run('create')
+#9 /home/kehuang/Codes/Web/Framework/Yii/web/CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 /home/kehuang/Codes/Web/Framework/Yii/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/kehuang/Codes/Web/trackstar/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=issue/create
+HTTP_REFERER=http://www.trackstar.local/index.php?r=issue/index
+---
